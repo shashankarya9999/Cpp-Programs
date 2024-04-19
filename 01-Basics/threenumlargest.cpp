@@ -9,20 +9,11 @@ int main()
     cout << "Enter three numbers: ";
     cin >> a >> b >> c;
 
-    if( a>b && a>c )
-    {
-        printf("The greatest number is: %d\n",a);
-    }
+    if( a>b && a>c )            printf("The greatest number is: %d\n",a);
 
-    else if( b>a && b>c )
-    {
-        printf("The greatest number is: %d\n",b);
-    }
+    else if( b>a && b>c )       printf("The greatest number is: %d\n",b);
 
-    else if( c>a && c>a )
-    {
-        printf("The greatest number is: %d\n",c);
-    }
+    else if( c>a && c>b )       printf("The greatest number is: %d\n",c);
 
     return 0;
 }
