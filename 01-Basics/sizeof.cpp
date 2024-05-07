@@ -25,7 +25,6 @@ int main()
     cout << "*******************************" << endl;
     
     // use values defined in <climits>
-    
     cout << "Minimum values:" << endl;
     cout << "char: " << CHAR_MIN << endl;
     cout << "int: " << INT_MIN << endl;
@@ -37,7 +36,6 @@ int main()
     cout << "*******************************" << endl;
 
     // use values defined in <climits>
-
     cout << "Maximum values:" << endl;
     cout << "char: " << CHAR_MAX << endl;
     cout << "int: " << INT_MAX << endl;
@@ -49,7 +47,6 @@ int main()
     cout << "*******************************" << endl;
     
     // sizeof can also be used with variable names
-
     cout << "sizeof using variable names" << endl;
     
     int age {21};
