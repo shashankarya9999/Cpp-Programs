@@ -17,6 +17,9 @@ int main()
 		{
 			cout << movie_rating[i][j];
 		}
+		
 	cout << "\n";
 	}
+
+	return 0;
 }
