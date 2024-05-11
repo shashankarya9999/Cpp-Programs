@@ -45,7 +45,6 @@ int main()
 	cout << "vector1[1] = " << vector1.at(1) << endl;
 
 	cout << "Size of vector1: " << vector1.size() << endl;
-
 	cout << endl;
 	
 	vector2.push_back(100);
@@ -55,12 +54,12 @@ int main()
 	cout << "vector2[1] = " << vector2.at(1) << endl;
 
 	cout << "Size of vector2: " << vector2.size() << endl;
-
 	cout << endl;
 
 	vector <vector<int>> vector_2d;
 
-	// when we are putting vectors of int,float,doubles into 2D vectors, we are putting a copy of vector1 and vector2 in the 2D vector. This implies that any change in vector1 or vector2 will not be reflected in vector_2d
+	// when we are putting vectors of int,float,doubles into 2D vectors, we are putting a copy of vector1 and vector2 in the 2D vector. 
+	// This implies that any change in vector1 or vector2 will not be reflected in vector_2d.
 
 	vector_2d.push_back(vector1);
 	vector_2d.push_back(vector2);
@@ -69,11 +68,11 @@ int main()
 	cout << "vector_2d[0][1] = " << vector_2d.at(0).at(1) << endl;
 	cout << "vector_2d[1][0] = " << vector_2d.at(1).at(0) << endl;
 	cout << "vector_2d[1][1] = " << vector_2d.at(1).at(1) << endl;
-
 	cout << endl;
 
 	cout << vector_2d.at(0).at(0) << " " << vector_2d.at(0).at(1) << endl;
 	cout << vector_2d.at(1).at(0) << " " << vector_2d.at(1).at(1) << endl; 
+	cout << endl;
 	
 	vector1.at(0) = 1000;
 
@@ -83,12 +82,10 @@ int main()
 	cout << "vector_2d[0][1] = " << vector_2d.at(0).at(1) << endl;	
 	cout << "vector_2d[1][0] = " << vector_2d.at(1).at(0) << endl;
 	cout << "vector_2d[1][1] = " << vector_2d.at(1).at(1) << endl;
-
 	cout << endl;
 
 	cout << vector_2d.at(0).at(0) << " " << vector_2d.at(0).at(1) << endl;
 	cout << vector_2d.at(1).at(0) << " " << vector_2d.at(1).at(1) << endl;
-
 	cout << endl;
 
 	cout << "vector_2d size = " << vector_2d.size() << endl;
