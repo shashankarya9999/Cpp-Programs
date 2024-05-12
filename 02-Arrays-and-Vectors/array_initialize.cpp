@@ -11,6 +11,7 @@ int main()
 	const int days_in_year {365};
 
 	double hi_temp[days_in_year] {}; // initialize all to zero
+	// double hi_temp[days_in_year] {0}; // also all initialized to zero 
 
 	int another_array [] {1,2,3,4,5}; // size automatically calculated
 
