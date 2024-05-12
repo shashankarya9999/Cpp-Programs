@@ -19,6 +19,7 @@ int main()
 
     cout << "num1: " << num1 << endl;
     cout << "num2: " << num2 << endl;
+    
     cout << "exp: " << exp << endl;
 
     return 0;
