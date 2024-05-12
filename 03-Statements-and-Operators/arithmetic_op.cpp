@@ -30,11 +30,10 @@ int main()
     result = num1 % num2;
     cout << num1 << " % " << num2 << " = " << result << endl;
 
-    // BODMAS - precedence of arithmetic operators
+    // "BODMAS" - precedence of arithmetic operators
     // Brackets -> Orders(powers/indices/roots) -> Division -> Multiplication -> Addition -> Subtraction
 
     cout << "5 / 10 " << " = " << 5/10 << endl;
-
     cout << "5.0 / 10.0 " << " = " << 5.0 / 10.0 << endl;
 
     return 0;    
