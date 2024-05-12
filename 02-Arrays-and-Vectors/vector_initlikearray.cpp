@@ -14,7 +14,7 @@ int main()
 	// 365 elements in a vector containing doubles, all initialized to 80.0
 	// vector<double> hi_temp (365,80.0); 
 
-	vector<int> test_scores {100,98,99,97,88};
+	vector<int> test_scores { 100, 98, 99, 97, 88 };
 
 	cout << "First score at index 0: " << test_scores[0] << endl;
 	cout << "Second score at index 1: " << test_scores[1] << endl;
