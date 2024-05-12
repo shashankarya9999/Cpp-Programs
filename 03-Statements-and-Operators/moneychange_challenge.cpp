@@ -33,7 +33,7 @@ int main()
     int change_amount {};
 
     // not using modulo operator
-
+    
     cout << "Not using modulo operator:" << endl;
     cout << "Enter an amount in cents: ";
     cin >> change_amount;
@@ -41,7 +41,7 @@ int main()
     int balance {}, dollars {}, quarters {}, dimes {}, nickels {}, pennies {};
 
     dollars = change_amount / dollar_value;
-    balance = change_amount - (dollars * dollar_value);
+    balance = change_amount - ( dollars * dollar_value );
 
     quarters = balance / quarter_value;
     balance -= quarters * quarter_value;
