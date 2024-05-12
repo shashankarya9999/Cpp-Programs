@@ -8,19 +8,21 @@ int main()
     int result {0};
 
     // simple increment
+    
     cout << "Simple Increment" << endl;
     cout << "Counter: " << counter << endl;
 
     counter = counter + 1;
     cout << "Counter: " << counter << endl;
 
-    counter++;
+    counter++;    // post-increment
     cout << "Counter: " << counter << endl;
 
-    ++counter;
+    ++counter;    // pre-increment
     cout << "Counter: " << counter << endl;
 
     // pre-increment
+    
     cout << "\nPre-increment" << endl;
     counter = 10;
     result = 0;
@@ -35,6 +37,7 @@ int main()
     cout << "Result: " << result << endl;
 
     // post-increment
+    
     cout << "\nPost-increment" << endl;
     counter = 10; 
     result = 0;
