@@ -14,7 +14,6 @@ int main()
 
     // expression evaluates to the value that is being assigned
     exp = (num1 = 100);
-
     num1 = num2 = 1000;
 
     cout << "num1: " << num1 << endl;
