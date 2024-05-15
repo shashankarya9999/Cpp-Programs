@@ -11,7 +11,7 @@ int main()
 
     char letter_grade {};
 
-    if( score >= 0 && score <=100 )
+    if( score >= 0 && score <= 100 )
     {
         if( score > 90 )
         {
