@@ -19,7 +19,7 @@ int main()
         cout << num << " is odd " << endl;
     }
 
-    cout << num << " is " << (( num % 2 == 0 ) ? "even" : "odd") << endl;
+    cout << num << " is " << ( ( num % 2 == 0 ) ? "even" : "odd" ) << endl;
 
     return 0;
 }
