@@ -1,16 +1,12 @@
 /*
 
-Challenge
-
+    Challenge
+    
 - For this program I will be using USD dollars and cents
-
 - Write a program that asks the user to enter the following:
--- An integer representing the number of rupees.
-
-- Assuming that the number of rupees entered is greater than or equal to zero
-
+    - An integer representing the number of cents.
+- Assuming that the number of cents entered is greater than or equal to zero
 - The program should then display how to provide that change to the user.
-
 - In USD:
     - 1 dollar is 100 cents
     - 1 quarter is 25 cents
