@@ -11,8 +11,8 @@ int main()
 
     if( num1 != num2 )
     {
-        cout << "Largest: " << (( num1 > num2 ) ? num1 : num2) << endl;
-        cout << "Smallest: " << (( num1 < num2 ) ? num1 : num2) << endl;
+        cout << "Largest: " << ( ( num1 > num2 ) ? num1 : num2 ) << endl;
+        cout << "Smallest: " << ( ( num1 < num2 ) ? num1 : num2 ) << endl;
     } 
 
     else
