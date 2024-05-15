@@ -1,9 +1,8 @@
 /*
     Problem:
-
+    
     - ask the user what grade they expect on exam &
     - tell them what they need to score to get it
-
 */
 
 #include<iostream>
@@ -47,12 +46,12 @@ int main()
             cout << "Are you sure(Y/N)?";
             cin >> confirm;
 
-            if(confirm == 'y' || confirm == 'Y')
+            if( confirm == 'y' || confirm == 'Y' )
             {
                 cout << "Ok, I guess you didn't study..." << endl;
             }
 
-            else if(confirm == 'n' || confirm == 'N')
+            else if( confirm == 'n' || confirm == 'N' )
             {
                 cout << "Good, Go study!" << endl;
             }
