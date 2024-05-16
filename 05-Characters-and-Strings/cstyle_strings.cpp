@@ -56,7 +56,6 @@ int main()
     cout << "Your full name is: " << full_name << endl; 
 
     cout << "\n--------------------------------------------" << endl;
-
     if(strcmp(temp, full_name) == 0)
         cout << temp << " and " << full_name << " are the same " << endl;
 
