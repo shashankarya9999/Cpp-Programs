@@ -18,15 +18,20 @@ int main()
 
         if(selection == '1')   
             cout << "You chose 1 - doing this" << endl;
+            
         else if(selection == '2')
             cout << "You chose 2 - doing that" << endl;
+            
         else if(selection == '3')
             cout << "You chose 3 - doing something else" << endl;
+            
         else if(selection == 'q' || selection == 'Q')
             cout << "Goodbye!" << endl;
+            
         else
             cout << "Unknown option - try again" << endl;
     
     } while(selection != 'q' && selection != 'Q');
-    
+
+    return 0;
 }
