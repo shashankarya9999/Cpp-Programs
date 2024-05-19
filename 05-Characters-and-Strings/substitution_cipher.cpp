@@ -24,8 +24,7 @@
     This could also be improved.
 
     Remember, the less code you write the less code you have to test!
-    Reuse existing functionality in libraries and in the std::string class!
-          
+    Reuse existing functionality in libraries and in the std::string class!      
 */
 
 #include<iostream>
