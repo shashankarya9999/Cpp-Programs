@@ -7,14 +7,12 @@ using namespace std;
 int main()
 {
     // array
-    
     int scores[] {100,90,87};
 
     for(auto score: scores)
         cout << score << endl;
 
     // vector
-    
     vector<double> temps {87.2, 77.1, 80.0, 72.5};
 
     double average_temp {};
