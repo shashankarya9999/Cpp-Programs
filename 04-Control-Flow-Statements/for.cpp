@@ -6,7 +6,6 @@ using namespace std;
 int main()
 {
     /*
-    
 
     ///////// initialization style /////////
     for(int i {1}, i <= 5; ++i)
@@ -41,9 +40,10 @@ int main()
         cout << i << " + " << j << " = " << i + j << endl;
     }
 
-    for(int i {1}; i<=100; ++i)
+    for(int i {1}; i <= 100; ++i)
     {
         cout << i;
+        
         if(i % 5 == 0)
         {
             cout << endl;
@@ -52,13 +52,13 @@ int main()
         else    cout << " ";
 
         cout << i;
-        cout << ( (i%10==0) ? "\n" : " ");
+        cout << ( (i % 10 == 0) ? "\n" : " ");
     }
 
     cout << endl;
 
     vector<int> nums {10,20,30,40,50};
-    for(unsigned int i {0}; i<nums.size(); ++i)
+    for(unsigned int i {0}; i < nums.size(); ++i)
     {
         cout << nums[i] << endl;
     }
