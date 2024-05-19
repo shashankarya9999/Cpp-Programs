@@ -1,6 +1,5 @@
 /*
     Problem:
-    
     - ask the user what grade they expect on exam &
     - tell them what they need to score to get it
 */
