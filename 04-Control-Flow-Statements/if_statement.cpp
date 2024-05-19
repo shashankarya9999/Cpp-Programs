@@ -16,7 +16,7 @@ int main()
         cout << "\n----------- if statement 1 ---------- " << endl;
         cout << num << " is greater than or equal to " << min << endl;
 
-        int diff {num-min}; 
+        int diff {num - min}; 
         cout << num << " is " << diff << " greater than " << min << endl;
     }
     
@@ -25,7 +25,7 @@ int main()
         cout << "\n----------- if statement 2 ---------- " << endl;
         cout << num << " is lesser than or equal to " << max << endl;
 
-        int diff {max-min};
+        int diff {max - min};
         cout << num << " is " << diff << " less than " << max << endl;
     } 
 
