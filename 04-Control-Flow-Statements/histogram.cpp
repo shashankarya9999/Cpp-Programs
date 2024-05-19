@@ -22,6 +22,7 @@ int main()
     }
 
     cout << "\nDisplaying Histogram\n" << endl;
+    
     for(auto val: data)
     {
         for(int i {1}; i <= val; ++i)
