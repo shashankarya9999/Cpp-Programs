@@ -10,7 +10,7 @@ int main()
         cout << "Do you want to loop again?(Y/N): ";
         cin >> again;
 
-        if(again == 'N' || again == 'n')
+        if( again == 'N' || again == 'n' )
             break;
     }
 
