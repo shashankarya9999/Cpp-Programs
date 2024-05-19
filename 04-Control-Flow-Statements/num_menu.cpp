@@ -19,7 +19,6 @@
     If an illegal choice is made, you should display, "Unknown selection, please try again" and the menu options should be
     displayed again.
 
-
     If the user enters 'P' or 'p', you should display all of the elements (ints) in the list.
     If the list is empty you should display "[] - the list is empty"
     If the list is not empty then all the list element should be displayed inside square brackets separated by a space. 
@@ -46,21 +45,14 @@
     Before you begin. Write out the steps you need to take and decide in what order they should be done.
     Think about what loops you should use as well as what you will use for your selection logic.
 
-    This exercise can be challenging! It may likely take a few attempts before you complete it -- that's OK!
-
     Finally, be sure to test your program as you go and at the end.
 
     Hint: Use a vector!
-
-    Additional functionality if you wish to extend this program.
-
+    
     - search for a number in the list and if found display the number of times it occurs in the list
     - clearing out the list (make it empty again) (Hint: the vector class has a .clear() method)
     - don't allow duplicate entries
     - come up with your own ideas!
-
-    Good luck!
-
 */
 
 #include<iostream>
@@ -89,11 +81,14 @@ int main()
         {
             if(numbers.size() == 0)
                 cout << "[] - the list is empty" << endl;
+                
             else
             {
                 cout << "[ ";
+                
                 for(auto num: numbers)
                     cout << num << " ";
+                
                 cout << "]" << endl;
             }
         }
@@ -101,8 +96,10 @@ int main()
         else if(selection == 'A' || selection == 'a')
         {
             int num_to_add {};
+            
             cout << "Enter an integer to add to the list: ";
             cin >> num_to_add;
+            
             numbers.push_back(num_to_add);
             cout << num_to_add << " added" << endl;
         }
@@ -111,6 +108,7 @@ int main()
         {
             if(numbers.size() == 0)
                 cout << "Unable to calculate mean - no data" << endl;
+            
             else
             {
                 int total {};
