@@ -12,7 +12,7 @@ int main()
     
         cout << strlen(str);        // 11
     
-        strcmp(str, "Another");     // > 0
+        strcmp(str, "Another");     // >0
     */
 
     return 0;
