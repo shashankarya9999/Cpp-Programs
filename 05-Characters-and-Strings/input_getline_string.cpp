@@ -8,7 +8,7 @@ int main()
     // string s1;
     // cout << "Enter a string: ";
     // cin >> s1;                  // Hello there
-    //                             // only accepts up to the first space
+                                   // only accepts up to the first space
     // cout << s1 << endl;         // Hello
 
     // getline(cin, s1);           // Read entire line until \n
