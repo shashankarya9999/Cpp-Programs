@@ -18,13 +18,9 @@
     To decrypt you can replace the character at position n in key
     with the character at position n in alphabet.
 
-    Have fun! And make the cipher stronger if you wish!
     Currently the cipher only substitutes letters - you could easily add digits, puncuation, whitespace and so
     forth. Also, currently the cipher always substitues a lowercase letter with an uppercase letter and vice-versa.
-    This could also be improved.
-
-    Remember, the less code you write the less code you have to test!
-    Reuse existing functionality in libraries and in the std::string class!      
+    This could also be improved.     
 */
 
 #include<iostream>
