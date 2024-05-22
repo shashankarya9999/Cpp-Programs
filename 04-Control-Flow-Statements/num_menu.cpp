@@ -112,8 +112,10 @@ int main()
             else
             {
                 int total {};
+                
                 for(auto num: numbers)
                     total += num;
+                
                 cout << "The mean is: " << static_cast<double>(total)/numbers.size() << endl;
             }
         }
