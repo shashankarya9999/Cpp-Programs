@@ -52,7 +52,7 @@ int main()
         else    cout << " ";
 
         cout << i;
-        cout << ( (i % 10 == 0) ? "\n" : " ");
+        cout << ( (i % 10 == 0) ? "\n" : " " );
     }
 
     cout << endl;
