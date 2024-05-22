@@ -12,13 +12,13 @@ void find_first_vowel(const vector<char>& vec)
     bool vowel_found {false};
 
     // Check if the vector is not empty before proceeding.
-    if (!vec.empty()) 
+    if(!vec.empty()) 
     {
         // Enter a do-while loop, which will run at least once.
         do 
         {
             // Check if the current character at index i is a lowercase Englisg vowel.
-            if (vec.at(i) == 'a' || vec.at(i) == 'e' || vec.at(i) == 'i' || vec.at(i) == 'o' || vec.at(i) == 'u') 
+            if(vec.at(i) == 'a' || vec.at(i) == 'e' || vec.at(i) == 'i' || vec.at(i) == 'o' || vec.at(i) == 'u') 
             {
                 // If a vowel is found, set vowel_found to true, which will cause the loop to exit.
                 vowel_found = true;
@@ -33,7 +33,7 @@ void find_first_vowel(const vector<char>& vec)
     }
     
     // After exiting the loop, check if a vowel was found.
-    if (vowel_found) 
+    if(vowel_found) 
     {
         // If a vowel was found, print it.
         cout << "Vowel found: " << vec.at(i);
