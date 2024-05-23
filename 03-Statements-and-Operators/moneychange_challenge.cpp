@@ -1,5 +1,4 @@
 /*
-
     Challenge
     
 - For this program I will be using USD dollars and cents
