@@ -49,5 +49,4 @@ void volume_cylinder()
     cin >> height;
 
     cout << "The volume of a cylinder with radius " << radius << " and height " << " is: " << calc_volume_cylinder(radius,height) << endl;
-
 }
