@@ -7,7 +7,6 @@ using namespace std;
 int main()
 {
     // int
-
     int score {100};
     int *score_ptr {&score};
 
@@ -21,7 +20,6 @@ int main()
     cout << endl;
 
     // string
-
     string name {"Shashank"};
 
     string *string_ptr {&name};
@@ -35,7 +33,6 @@ int main()
     cout << endl;
 
     // vector
-
     vector<string> stooges {"Larry","Moe","Curly"};
     vector<string> *vector_ptr {nullptr};
 
@@ -50,6 +47,6 @@ int main()
         cout << stooge << " ";
     
     cout << endl;
-
+    
     return 0;
 }
