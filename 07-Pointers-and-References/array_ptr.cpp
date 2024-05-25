@@ -44,5 +44,7 @@ int main()
     cout << *(score_ptr + 1) << endl;
     cout << *(score_ptr + 2) << endl;
 
+    cout << endl;
+
     return 0;
 }
