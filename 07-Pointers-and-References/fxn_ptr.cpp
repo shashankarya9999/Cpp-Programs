@@ -29,3 +29,23 @@ void double_data(int *int_ptr)
 
     // *int_ptr = *int_ptr * 2
 }
+
+///////// What not to do? ////////////////
+/*
+
+int *dont_do_this()
+{
+    int size {};
+
+    return &size;
+}
+
+int *or_this()
+{
+    int size {};
+    int *int_ptr {&size};
+
+    return int_ptr;
+}
+
+*/
