@@ -9,7 +9,6 @@ int main()
     int_ptr = new int;          // allocate an integer on the heap
 
     cout << int_ptr << endl;
-
     cout << *int_ptr << endl;   // garbage
 
     *int_ptr = 100;
