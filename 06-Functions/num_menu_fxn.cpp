@@ -156,7 +156,7 @@ int main()
                 handle_unknown();
         }
 
-    } while (selection != 'Q');
+    } while(selection != 'Q');
 
     cout << endl;
     return 0;
@@ -198,7 +198,7 @@ this function should NOT modify the list of numbers
 ***************************************************************/
 void handle_display(const vector<int> &v) 
 {
-    if (v.size() == 0)
+    if(v.size() == 0)
         cout << "[] - the list is empty" << endl;
     
     else    
@@ -232,7 +232,7 @@ this function should NOT modify the list of numbers
 ***************************************************************/
 void handle_mean(const vector<int> &v) 
 {
-    if (v.size() == 0)
+    if(v.size() == 0)
         cout << "Unable to calculate mean - list is empty" << endl;
     
     else    
@@ -247,7 +247,7 @@ this function should NOT modify the list of numbers
 ***************************************************************/
 void handle_smallest(const vector<int> &v) 
 {
-    if (v.size() == 0)
+    if(v.size() == 0)
         cout << "Unable to determine the smallest - list is empty" << endl;
     
     else    
@@ -262,7 +262,7 @@ this function should NOT modify the list of numbers
 ***************************************************************/
 void handle_largest(const vector<int> &v) 
 {
-    if (v.size() == 0)
+    if(v.size() == 0)
         cout << "Unable to determine the largest - list is empty" << endl;
     
     else    
@@ -282,7 +282,7 @@ void handle_find(const vector<int> &v)
     cout << "Enter the number to find: ";
     cin >> target;
     
-    if ( find(v, target)) 
+    if(find(v, target)) 
         cout << target << " was found" << endl;
     
     else
@@ -319,7 +319,7 @@ void display_list(const vector<int> &v)
 {
     cout << "[ ";
     
-    for (auto num: v)
+    for(auto num: v)
         cout << num << " ";
     
     cout << "]" << endl;
@@ -336,10 +336,10 @@ double calculate_mean(const vector<int> &v)
 {
     int total {};
     
-    for (auto num: v)
+    for(auto num: v)
         total += num;
     
-    return static_cast<double>(total)/v.size();
+    return static_cast<double>(total) / v.size();
 }
 
 /***************************************************************
@@ -353,8 +353,8 @@ int get_largest(const vector<int> &v)
 {
     int largest = v.at(0);
     
-    for (auto num: v) 
-        if (num > largest)
+    for(auto num: v) 
+        if(num > largest)
             largest = num;
     
     return largest;
@@ -371,8 +371,8 @@ int get_smallest(const vector<int> &v)
 {
     int smallest = v.at(0);
     
-    for (auto num: v) 
-        if (num < smallest)
+    for(auto num: v) 
+        if(num < smallest)
             smallest = num;
     
     return smallest;
@@ -390,8 +390,8 @@ this function should NOT modify the list of numbers
 ***************************************************************/
 bool find(const vector<int> &v, int target) 
 {
-    for (auto num: v)
-        if (num == target)
+    for(auto num: v)
+        if(num == target)
             return true;
     
     return false;
