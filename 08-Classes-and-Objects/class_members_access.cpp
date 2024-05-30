@@ -29,13 +29,13 @@ class Account
         double balance {0.0};
 
         //methods
-        bool deposit(double bal)
+        void deposit(double bal)
         {
             balance += bal;
             cout << "In deposit" << endl;
         }
 
-        bool withdraw(double bal)
+        void withdraw(double bal)
         {
             balance -= bal;
             cout << "In withdraw" << endl;
