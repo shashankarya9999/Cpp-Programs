@@ -59,7 +59,7 @@ int main()
     Deep obj1 {100};
     display_deep(obj1);
 
-    Deep obj2 {obj1};
+    Deep obj2 {obj1}; 
 
     return 0;
 }
