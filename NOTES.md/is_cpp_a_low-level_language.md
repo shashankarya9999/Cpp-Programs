@@ -1,3 +1,5 @@
+### Is C++ a low level language?
+
 The first thing I want to say is C Plus Plus is a low-level language. What does that mean? When I say low or high level, what I'm referring to is the level of abstraction of the underlying hardware. 
 
 If you're writing in a high-level language, then you don't really have to worry about how the underlying machine is doing its work. You don't know how the transistors are switching. For example, you're not worrying about how the CPU deals with memory and things like that. There's all these low-level details about how the actual hardware operates. You don't need to consider those when you're operating in a higher-level language generally. 
