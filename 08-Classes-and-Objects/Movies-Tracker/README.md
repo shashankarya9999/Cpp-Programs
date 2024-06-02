@@ -1,5 +1,4 @@
-Section 13 Challenge
-==============
+### Movies Tracker
 
 The foundation for a program for movie fanatics to keep track of what movies they have watched and how many times they watched each movie.
 
