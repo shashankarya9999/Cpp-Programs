@@ -6,5 +6,6 @@ Never, ever, ever put a .cpp file in an #include statement. If rule one is broke
 If rule two is broken, at some point the linker will complain about multiply-defined symbols. ( [**Link**](https://stackoverflow.com/questions/1241399/what-is-a-h-gch-file) )
 
 2) Keyboard shortcuts(VS Code + Windows 11)
-   - Ctrl + /: comment and uncomment in C/C++
+   - Ctrl + / --- comment and uncomment in C/C++
+   - Ctrl + f --- find and replace 
      
