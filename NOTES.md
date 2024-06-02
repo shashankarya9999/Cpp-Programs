@@ -1,4 +1,4 @@
-***Learnings***:
+**Learnings**:
 
 1) A beginner using g++. There are two rules:
 Never, ever, ever put a .h file on a g++ compile line. Only .cpp files. If a .h file is ever compiled accidentally, remove any *.gch files.
