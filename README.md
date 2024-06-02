@@ -6,4 +6,4 @@ I took the C++ course( [link](https://www.udemy.com/course/beginning-c-plus-plus
 
 Additionally, I have also taken the Object-Oriented Programming with C++ specialization, offered by University of London through Coursera( [**link**](https://www.coursera.org/specializations/object-oriented-programming-s12n) ). I am planning to complete it by the end of this summer.
 
-I also intend to add more of my own insights and understandings of the language in this repository for future reference.
+I also intend to add more of my own insights and understandings of the language in this repository for future reference. 
