@@ -9,4 +9,3 @@ High level is when, as I say, it's highly abstracted, it doesn't necessarily kno
 The thing is there are certain advantages to both. If you're working in a high-level language, then you don't have to worry too much about how the underlying machineries going to execute your program. You can maybe just express those ideas that you need and get it to do what you need. 
 
 Whereas if you're working in a low-level language, you do need to worry about that. But then the advantages, effectively you have more control because you got access to that machinery. You can make it operate exactly how you like. That's why C Plus Plus is a very useful language for doing things like critical systems and real-time systems like, for example, digital signal processing and avionics control, because you can design it in a way that's really aware of the hardware that it's running on. 
- 
