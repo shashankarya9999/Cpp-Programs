@@ -1,3 +1,5 @@
+### How does a program work?
+
 I'm going to feed an end of line character. Which is also available in the standard library. So why would an end of line character be in the standard library? Well, that allows me to be cross platform. So depending on which platform I'm on, if I compile this on Windows. You'll have a different end of line character to the file compiler on Unix, for example. And so, that byte, instead writing a platform specific end of line character. I chose the standard library, end of line character. It should work on all platforms. 
 
 So actually, in order to convert that code into a runnable program. There's a few stages and we're going to look at some of those stages and see what the what comes out each stage. 
