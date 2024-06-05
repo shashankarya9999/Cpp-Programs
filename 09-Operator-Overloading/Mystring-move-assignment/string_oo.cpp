@@ -7,10 +7,8 @@ using namespace std;
 int main()
 {
     Mystring a {"Hello"};       // overloaded constructor
-    Mystring b;                 // no-args constructor
-    b = a;                      // copy assignment
-                                // b.operator(a)
-    b = "This is a test";       // b.operator = {"This is a test"};
+    a = Mystring {"Hola"};      // overloaded constructor then move assignment
+    a = "Bonjour";              // overloaded constructor then move assignment
     
     Mystring empty;             // no-args constructor
     Mystring larry {"Larry"};   // overloaded constructor
@@ -18,11 +16,15 @@ int main()
     Mystring stooges;           // no-args constructor
 
     empty = stooge;             // copy assignment operator
+                                // stooge is an l-value
 
-    empty.display();            // Larry : 5
-    larry.display();            // Larry : 5
-    stooge.display();           // Larry : 5
-    stooge.display();           // Larry : 5
+    empty = "Funny";            // move assignment operator
+                                // "Funny" is an r-value
+
+    empty.display();            
+    larry.display();            
+    stooge.display();           
+    stooge.display();           
 
     stooges = "Larry, Moe, and Curly";
     stooges.display();

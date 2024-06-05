@@ -35,6 +35,14 @@ Mystring::Mystring(const Mystring &source)
     std::strcpy(str,source.str);
 }
 
+// move constructor
+Mystring::Mystring(Mystring &&source)
+    :str(source.str)
+{
+    source.str = nullptr;
+    std::cout << "Move constructor used" << std::endl;
+}
+
 // destructor
 Mystring::~Mystring()
 {
@@ -60,6 +68,28 @@ Mystring &Mystring::operator=(const Mystring &rhs)
     std::strcpy(this -> str, rhs.str);
 
     // return the current by reference to allow chain assignment
+    return *this;
+}
+
+// move assignment
+Mystring &Mystring::operator=(Mystring &&rhs)
+{
+    std::cout << "Using move assignment" << std::endl;
+
+    // checks for self assignment
+    if(this == &rhs)
+        return *this;
+
+    // deallocate storage for this -> str since we are overwriting it
+    delete [] str;
+
+    // steal the pointer from the rhs object and assign it to this -> str
+    str = rhs.str;
+
+    // null out the rhs pointer
+    rhs.str = nullptr;
+
+    // return the current object by reference to allow chain assignment
     return *this;
 }
 
