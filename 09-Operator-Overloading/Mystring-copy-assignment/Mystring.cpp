@@ -41,6 +41,28 @@ Mystring::~Mystring()
     delete [] str;
 }
 
+// copy assignment
+Mystring &Mystring::operator=(const Mystring &rhs)
+{
+    std::cout << "Copy assignment" << std::endl;
+
+    // checks for self assignment
+    if(this == &rhs)
+        return *this;
+
+    // deallocate storage for this -> str since we are overwriting it
+    delete [] this -> str;
+
+    // allocate storage for the deep copy
+    str = new char[std::strlen(rhs.str) + 1];
+
+    // perform the copy
+    std::strcpy(this -> str, rhs.str);
+
+    // return the current by reference to allow chain assignment
+    return *this;
+}
+
 // display method
 void Mystring::display() const
 {
