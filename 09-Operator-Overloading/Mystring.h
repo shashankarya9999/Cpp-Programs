@@ -4,7 +4,7 @@
 class Mystring
 {
     private:
-        char *str;      // pointer to a char[] that holds a C-style string
+        char *str;  // pointer to a char[] that holds a C-style string
 
     public:
         Mystring();                         // no-args constructor
