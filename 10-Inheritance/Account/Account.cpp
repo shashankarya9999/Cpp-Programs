@@ -2,8 +2,9 @@
 #include "Account.h"
 
 Account::Account()
+    :balance {0.0}, name {"An Account"}
 {
-    
+
 }
 
 Account::~Account()
