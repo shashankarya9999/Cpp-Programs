@@ -42,7 +42,7 @@ int main()
 
     cout << "----------  Loop 2  -----------" << endl;
     for(Mystring &s: stooges_vec)
-        s = "Changed";        // copy assignment
+        s = "Changed";      // copy assignment
 
     cout << "----------  Loop 3  -----------" << endl;
     for(const Mystring &s: stooges_vec)
