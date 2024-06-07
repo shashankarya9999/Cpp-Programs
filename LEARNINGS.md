@@ -13,3 +13,6 @@ If rule two is broken, at some point the linker will complain about multiply-def
 3) To compile multiple cpp files in the same directory,
    ``` g++ -o a.out *.cpp ``` 
    - [**Link**](https://stackoverflow.com/questions/33662375/how-can-you-compile-all-cpp-files-in-a-directory)
+
+4) Information about g++ commands,
+```g++ --help``` or ```g++ gcc```
