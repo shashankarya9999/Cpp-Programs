@@ -10,7 +10,10 @@ class Account
             std::cout << "In Account::withdraw" << std::endl;
         }
 
-        virtual ~Account() {}
+        virtual ~Account()
+        {
+            std::cout << "Account:: destructor" << std::endl;
+        }
 };
 
 class Checking: public Account  
@@ -21,7 +24,10 @@ class Checking: public Account
             std::cout << "In Checking::withdraw" << std::endl;
         }
         
-        virtual ~Checking() {}
+        virtual ~Checking()
+        {
+            std::cout << "Checking:: destructor" << std::endl;
+        }
 };
 
 class Savings: public Account
@@ -32,7 +38,10 @@ class Savings: public Account
             std::cout << "In Savings::withdraw" << std::endl;
         }
 
-        virtual ~Savings() {}
+        virtual ~Savings()
+        {
+            std::cout << "Savings:: destructor" << std::endl;
+        }
 };
 
 class Trust: public Account  
