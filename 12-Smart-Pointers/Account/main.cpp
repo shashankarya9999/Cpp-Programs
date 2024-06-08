@@ -1,5 +1,3 @@
-// Section 17
-// Unique Pointers 
 #include <iostream>
 #include <memory>
 #include <vector>
@@ -49,12 +47,12 @@ int main()
     //   
     //   std::unique_ptr<Test> t3;
     //   t3 = std::move(t1);
-    //   if (!t1) 
+    //   if(!t1) 
     //       std::cout << "t1 is nullptr" << std::endl;
 
     std::unique_ptr<Account> a1 = std::make_unique<Checking_Account>("Moe", 5000);
     std::cout << *a1 << std::endl;
-    a1->deposit(5000);
+    a1 -> deposit(5000);
     std::cout << *a1 << std::endl;
 
     std::vector<std::unique_ptr<Account>> accounts;
