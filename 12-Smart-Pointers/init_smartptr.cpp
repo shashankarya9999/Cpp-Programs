@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+    // three types of smart pointers: unique_ptr, shared_ptr and weak_ptr
     // basic syntax of smart pointers
     // std::smart_pointer<Some_Class> ptr = ...
 
@@ -14,3 +15,4 @@ int main()
 
 // ptr will be destroyed automatically 
 // when no longer needed
+// All three have similar initializations
