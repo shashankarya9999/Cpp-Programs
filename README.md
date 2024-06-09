@@ -7,3 +7,5 @@ I took the C++ course( [link](https://www.udemy.com/course/beginning-c-plus-plus
 Additionally, I have also taken the Object-Oriented Programming with C++ specialization, offered by University of London through Coursera( [**link**](https://www.coursera.org/specializations/object-oriented-programming-s12n) ). I am planning to complete it by the end of this summer.
 
 I also intend to add more of my own insights and understandings of the language in this repository for future reference. 
+
+Apart from C++ programs, I have also included directories like NOTES.md and Reference-Material. In the NOTES.md directory, I have included my own digital notes on various topics in C++ and also programming in general. The Reference-Material directory, as you would have guessed, contains related ebooks and reference media. There is also a LEARNINGS.md file which contains any short-cuts, tricks or important blogpost I stumble upon during my coding odyssey.
