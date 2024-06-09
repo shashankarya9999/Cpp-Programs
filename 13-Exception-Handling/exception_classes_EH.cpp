@@ -2,7 +2,7 @@
 
 class DivideByZeroException
 {
-    
+
 };
 
 class NegativeValueException
