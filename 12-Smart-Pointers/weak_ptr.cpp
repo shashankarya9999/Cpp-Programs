@@ -24,11 +24,11 @@ class A
         {
             cout << "A Destructor" << endl;
         }
-}
+};
 
 class B
 {
-    std::shared_ptr<A> a_ptr;
+    std::weak_ptr<A> a_ptr;   // make weak to break the strong circular reference
 
     public:
         void set_A(std::shared_ptr<A> &a)
@@ -45,9 +45,14 @@ class B
         {
             cout << "B Destructor" << endl;
         }
-}
+};
 
 int main()
 {
-    
+    shared_ptr<A> a = make_shared<A>();
+    shared_ptr<B> b = make_shared<B>();
+    a -> set_B(b);
+    b -> set_A(a);
+
+    return 0;
 }
