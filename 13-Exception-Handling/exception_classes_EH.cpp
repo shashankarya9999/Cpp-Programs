@@ -1,20 +1,14 @@
 #include<iostream>
 
-class DivideByZeroException
-{
+class DivideByZeroException {};
 
-};
-
-class NegativeValueException
-{
-
-};
+class NegativeValueException {};
 
 double calculate_mpg(int miles, int gallons)
 {
     if(gallons == 0)
         throw DivideByZeroException();
-
+    
     if(miles < 0 || gallons < 0)
         throw NegativeValueException();
 
@@ -38,14 +32,14 @@ int main()
         std::cout << "Result: " << miles_per_gallon << std::endl;
     }   
 
-    catch(int &ex)
+    catch(const DivideByZeroException &ex)
     {
         std::cerr << "Sorry, can't divide by zero" << std::endl;
     }   
 
-    catch(std::string &ex)
+    catch(const NegativeValueException &ex)
     {
-        std::cerr << ex << std::endl;
+        std::cerr << "Sorry, one of your parameters is negative" << std::endl;
     }
 
     // catch(...) {}
