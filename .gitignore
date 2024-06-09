@@ -1,5 +1,7 @@
 **/.vscode/
-*.json   
-*.js     
+**/.json   
+**/.js     
 *.out
-/c:\Users\shash
+**c:\Users\shash/*.js
+**c:\Users\shash/*.json
+
