@@ -84,7 +84,7 @@ int main()
     std::cout << "-- Back to defaults----------------------------" << std::endl;
     std::cout << num1 << std::endl;	
     std::cout << num2 << std::endl;	
-    std::cout << num3 << std::endl;	
+    std::cout << num3 << std::endl;
     
     return 0;
 }
