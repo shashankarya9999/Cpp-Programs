@@ -12,7 +12,7 @@ int main()
     std::cout << std::oct << num << std::endl;
     
     // displaying showing the base prefix for hex and oct
-        std::cout << "\n------------------------------------------------------------" << std::endl;
+    std::cout << "\n------------------------------------------------------------" << std::endl;
     std::cout << std::showbase;
     std::cout << std::dec << num << std::endl;
     std::cout << std::hex << num << std::endl;
@@ -30,7 +30,7 @@ int main()
     std::cout << std::hex << num << std::endl;
     std::cout << std::oct << num << std::endl;
     
-    // setting using the set method
+    // setting using the setf method
     std::cout.setf(std::ios::showbase);
     std::cout.setf(std::ios::uppercase);
     std::cout.setf(std::ios::showpos);
