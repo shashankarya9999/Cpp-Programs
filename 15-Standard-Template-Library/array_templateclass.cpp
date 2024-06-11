@@ -74,14 +74,14 @@ int main()
     std::cout << "The size of nums2 is: "<< nums2.get_size() << std::endl;
     std::cout << nums2 << std::endl;
 
-    Array<std::string, 10> strings(std::string{"Frank"});
+    Array<std::string, 10> strings(std::string {"Shashank"});
     std::cout << "The size of strings is: "<< strings.get_size() << std::endl;
     std::cout << strings << std::endl;
     
-    strings[0] = std::string{"Larry"};
+    strings[0] = std::string {"Larry"};
     std::cout << strings << std::endl;
     
-    strings.fill(std::string{"X"});
+    strings.fill(std::string {"O"});
     std::cout << strings << std::endl;
 
     return 0;
