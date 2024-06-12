@@ -7,8 +7,9 @@ If rule two is broken, at some point the linker will complain about multiply-def
    - [**Link**](https://stackoverflow.com/questions/1241399/what-is-a-h-gch-file)
 
 2) Keyboard shortcuts(VS Code + Windows 11)
-   - Ctrl + / --- comment and uncomment in C/C++
-   - Ctrl + f --- find and replace 
+   - Ctrl + / --- toggle comment and uncomment 
+   - Ctrl + f --- find and replace
+   - Ctrl + j or Ctrl + ` --- toggle terminal
      
 3) To compile multiple cpp files in the same directory,
    ``` g++ -o a.out *.cpp ``` 
