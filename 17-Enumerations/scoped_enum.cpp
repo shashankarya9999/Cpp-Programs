@@ -12,22 +12,28 @@ enum class Grocery_Item {Milk=350, Bread=250, Apple=132, Orange=100};
 std::ostream &operator<<(std::ostream &os, Grocery_Item grocery_item)
 {
     std::underlying_type_t<Grocery_Item> value = std::underlying_type_t<Grocery_Item>(grocery_item);
-	switch (grocery_item) {
+	switch (grocery_item) 
+	{
 	    case Grocery_Item::Milk:      
-            os << "Milk";
-            break;
-		case Grocery_Item::Bread:
-            os << "Bread";
-            break;
-		case Grocery_Item::Apple:     
-            os << "Apple";
-            break;
-		case Grocery_Item::Orange:    
-            os << "Orange";
-            break;
-		default:        
-            os << "Invalid item";
+	    os << "Milk";
+	    break;
+	    
+	    case Grocery_Item::Bread:
+	    os << "Bread";
+	    break;
+	    
+	    case Grocery_Item::Apple:     
+	    os << "Apple";
+	    break;
+	
+	    case Grocery_Item::Orange:    
+	    os << "Orange";
+	    break;
+	
+	    default:        
+	    os << "Invalid item";
 	}
+
     os << " : " << value;
 	return os;
 }
