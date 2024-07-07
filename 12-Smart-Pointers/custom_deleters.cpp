@@ -53,7 +53,6 @@ int main()
             new Test {1000}, 
             
             [] (Test *ptr)
-            
             {
                 std::cout << "\tUsing my custom lambda deleter" << std::endl;
                 delete ptr;
