@@ -6,14 +6,16 @@ Never, ever, ever put a .cpp file in an #include statement. If rule one is broke
 If rule two is broken, at some point the linker will complain about multiply-defined symbols.
    - [**Link**](https://stackoverflow.com/questions/1241399/what-is-a-h-gch-file)
 
-2) Keyboard shortcuts(VS Code + Windows 11)
-   - Ctrl + / --- toggle comment and uncomment 
-   - Ctrl + f --- find and replace
-   - Ctrl + j or Ctrl + ` --- toggle terminal
+2) Keyboard shortcuts - VS Code
+   | Shortcut | Description |
+   |---|---|
+   | Ctrl + / | Toggle comment and uncomment | 
+   | Ctrl + f | Find and Replace |
+   | Ctrl + j or Ctrl + `| Toggle terminal |
      
-3) To compile multiple cpp files in the same directory,
+4) To compile multiple cpp files in the same directory,
    ``` g++ -o a.out *.cpp ``` 
    - [**Link**](https://stackoverflow.com/questions/33662375/how-can-you-compile-all-cpp-files-in-a-directory)
 
-4) Information about g++ commands,
+5) Information about g++ commands,
 ```g++ --help``` or ```g++ gcc```
