@@ -44,3 +44,11 @@
     - https://www.geeksforgeeks.org/range-based-loop-c/
 
 13) [**Comprehensive Glossary about programming in C++**](https://www.stroustrup.com/glossary.html)
+
+14) [Floating point representation](https://en.cppreference.com/w/cpp/language/floating_literal)
+
+15) 
+
+Readings:
+
+1) Horton, I. and P. Van Weert Beginning C++17: From novice to professional. (Berkeley, CA: Apress, 2018) 5th edition [9781484233665].
