@@ -18,4 +18,4 @@ If rule two is broken, at some point the linker will complain about multiply-def
    - [**Link**](https://stackoverflow.com/questions/33662375/how-can-you-compile-all-cpp-files-in-a-directory)
 
 5) Information about g++ commands,
-```g++ --help``` or ```g++ gcc```
+   ```g++ --help``` or ```g++ gcc```
