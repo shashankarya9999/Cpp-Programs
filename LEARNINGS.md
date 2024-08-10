@@ -19,3 +19,5 @@ If rule two is broken, at some point the linker will complain about multiply-def
 
 5) Information about g++ commands,
    ```g++ --help``` or ```g++ gcc```
+
+6) Never use spaces in a CSV file, they are called comma-seperated files for a reason.
