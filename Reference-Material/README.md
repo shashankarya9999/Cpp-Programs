@@ -49,6 +49,19 @@
 
 15) [Static and non-static function](https://en.cppreference.com/w/cpp/language/member_functions#:~:text=A%20non%2Dstatic%20member%20function,the%20effect%20of%20those%20keywords).&text=Constructors%2C%20destructors%2C%20and%20conversion%20functions,special%20syntaxes%20for%20their%20declarations.)
 
+16) std::map
+    - https://thispointer.com/stdmap-tutorial-part-1-usage-detail-with-examples/
+    - https://en.cppreference.com/w/cpp/container/map
+
+17) Operator Overloading
+    - https://www.geeksforgeeks.org/operator-overloading-c/
+    - https://www.tutorialspoint.com/cplusplus/cpp_overloading.htm
+    - https://en.cppreference.com/w/cpp/language/operators
+
+18) Sorting
+    - http://www.cplusplus.com/articles/NhA0RXSz/
+    - https://www.geeksforgeeks.org/sort-c-stl/
+
 Readings:
 
 1) Horton, I. and P. Van Weert Beginning C++17: From novice to professional. (Berkeley, CA: Apress, 2018) 5th edition [9781484233665].
