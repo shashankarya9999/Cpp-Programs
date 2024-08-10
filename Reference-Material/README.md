@@ -47,7 +47,7 @@
 
 14) [Floating point representation](https://en.cppreference.com/w/cpp/language/floating_literal)
 
-15) 
+15) [Static and non-static function](https://en.cppreference.com/w/cpp/language/member_functions#:~:text=A%20non%2Dstatic%20member%20function,the%20effect%20of%20those%20keywords).&text=Constructors%2C%20destructors%2C%20and%20conversion%20functions,special%20syntaxes%20for%20their%20declarations.)
 
 Readings:
 
