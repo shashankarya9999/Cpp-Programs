@@ -62,6 +62,22 @@
     - http://www.cplusplus.com/articles/NhA0RXSz/
     - https://www.geeksforgeeks.org/sort-c-stl/
 
+19) Exceptions and a try-catch example
+    - https://www.cplusplus.com/doc/tutorial/exceptions/
+    - https://isocpp.org/wiki/faq/exceptions
+    - https://www.geeksforgeeks.org/exception-handling-c/
+
+20) Friend functions
+    - https://www.tutorialspoint.com/cplusplus/cpp_friend_functions.htm
+    - https://en.cppreference.com/w/cpp/language/friend
+    - https://www.geeksforgeeks.org/friend-class-function-cpp/
+      
+21) Setting default parameter values
+    - https://www.geeksforgeeks.org/default-arguments-c/
+    - https://www.programiz.com/cpp-programming/default-argument
+    - https://en.cppreference.com/w/cpp/language/default_arguments
+    - https://www.w3schools.com/cpp/cpp_function_default.asp
+
 Readings:
 
 1) Horton, I. and P. Van Weert Beginning C++17: From novice to professional. (Berkeley, CA: Apress, 2018) 5th edition [9781484233665].
