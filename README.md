@@ -2,7 +2,7 @@
 
 This repository serves as a collection of all the programs I wrote in the process of learning C++. 
 
-I took the C++ course( [link](https://www.udemy.com/course/beginning-c-plus-plus-programming/?couponCode=KEEPLEARNING) ), taught by  Dr. Frank Mitropoulos, which coveres C++ language very extensively, from basic fundamentals to advanced concepts. Anyone who is also taking the aforementioned course may also check out the programs for reference. I have tried to maintain self-descriptive file names and comprehensible comments for easy understanding. 
+I took the C++ course( [link](https://www.udemy.com/course/beginning-c-plus-plus-programming/?couponCode=KEEPLEARNING) ), taught by  Dr. Frank Mitropoulos, which covers C++ language very extensively, from basic fundamentals to advanced concepts. Anyone who is also taking the aforementioned course may also check out the programs for reference. I have tried to maintain self-descriptive file names and comprehensible comments for easy understanding. 
 
 Apart from C++ programs, I have also included directories like NOTES.md and Reference-Material. In the NOTES.md directory, I have included my own digital notes on various topics in C++ and also programming in general. The Reference-Material directory, as you would have guessed, contains related ebooks and reference media. There is also a LEARNINGS.md file which contains any short-cuts, tricks or important blogpost I stumble upon during my coding odyssey.
 
